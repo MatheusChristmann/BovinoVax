@@ -9,4 +9,4 @@ A Estrutura do repositório pode ser vista a seguir:
 | [Video](./video)                                     | Documentos do video de apresentação                         |
 | [Prototipo Figma](./Figma)                         | Documentos do prototipo feito com o Figma                |
 | [Apresentação](./Apresentacao)                         | Documentos da apresentação do projeto                |
-| [Requisitos e Diagramas](./Requisitos e Diagramas)                         | Documentos dos requisitos e diagramas                |
+| [Requisitos e Diagramas](./Requisitos-e-Diagramas)                         | Documentos dos requisitos e diagramas                |
