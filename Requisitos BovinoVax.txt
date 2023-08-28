@@ -1,0 +1,41 @@
+RF.001 - O sistema deve permitir o Cadastro de informações detalhadas sobre cada bovino, incluindo dados como identificação do animal, raça, data de nascimento, sexo, peso e outras características relevantes.
+
+RF.002 - O sistema deve permitir a edição do cadastro de bovinos, podendo alterar dados caso necessário.
+
+RF.003 - O sistema deve permitir o cadastro de tipos de vacinas e suas características, bem como a edição de seus dados.
+
+RF.004 - O sistema deve permitir o registro/vínculo de informações sobre as vacinações realizadas em cada bovino, incluindo o tipo de vacina, data da vacinação, dose administrada e o local da aplicação.
+
+RF.005 - O sistema deve permitir o usuário realizar a leitura do brinco do bovino para identificar que o mesmo realizou a vacinação.
+
+RF.006 - O sistema deve manter um histórico completo de todas as vacinações realizadas para cada bovino, permitindo a visualização das datas, tipos de vacinas administradas e local de aplicação.
+
+RF.007 - O sistema deve permitir a criação, edição e exclusão de alertas/lembretes aos usuários em relação a vacinação do bovino.
+
+RF.008 - O sistema deve enviar alertas/lembretes aos usuários quando uma vacinação estiver próxima de expirar ou for necessária.
+
+RF.009 - O sistema deve possibilitar a geração de relatórios personalizados, como o histórico de saúde de um bovino específico ou um resumo das atividades de saúde em um determinado período.
+
+RF.010 - O sistema deve permitir que diferentes usuários acessem o sistema com níveis de permissão diferentes, como proprietários e veterinários da propriedade.
+
+-----------------------------------------------------------------
+
+RNF.001 - Brinco para rastreio e registro do animal.
+
+RNF.002  - Controle via Código de Barras / RFID.
+
+RNF.003 -  O sistema deve fornecer respostas rápidas para consultas e operações.
+
+RNF.004 - A interface do usuário deve ser intuitiva e fácil de navegar, com suporte para diferentes dispositivos, como smartphones, tablets e computadores.
+
+RNF.005 - O sistema deve conter cores neutras.
+
+RNF.006 - O sistema deve fornecer mecanismos para realizar backups regulares dos dados e permitir a restauração desses dados em caso de perda ou falhas.
+
+RNF.007 - O sistema deve estar disponível para uso 24 horas por dia, 7 dias por semana, com uma taxa de indisponibilidade planejada não superior a 1% do tempo total por mês, exclusivamente para manutenções programadas.
+
+RNF.008 - O sistema deve ser projetado para ser escalável, permitindo que a capacidade seja aumentada facilmente para acomodar o crescimento de registros de bovinos e dados de vacinação ao longo do tempo.
+
+RNF.009 - O sistema deve ser compatível com os principais navegadores web (como Chrome, Firefox, Safari) e ser responsivo para funcionar adequadamente em diferentes dispositivos (computadores, tablets e smartphones).
+
+RNF.010 - O sistema deve ser capaz de suportar o cadastro e gerenciamento de pelo menos 10.000 registros de bovinos, sem degradação perceptível de velocidade.

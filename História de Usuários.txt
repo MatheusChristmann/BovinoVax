@@ -1,0 +1,18 @@
+- História de Usuário 1: Cadastrando os Animais
+"Então, como alguém que está de olho nos bovinos da fazenda, quero poder jogar todos os detalhes sobre cada bovino no sistema. Tipo, a identificação deles, qual raça são, data de nascimento, se é macho ou fêmea, o peso e outras coisas importantes. Isso vai me ajudar a manter tudo organizado."
+
+
+- História de Usuário 2: Anotando as Vacinas
+"Olha só, eu sou o veterinário por aqui e preciso muito conseguir anotar as vacinas que os bovinos tomam. Quero jogar as informações sobre o tipo de vacina, quando foi aplicada, a dose e onde foi aplicada. Isso vai me ajudar a ficar de olho na saúde deles e garantir que todas as vacinas necessárias estejam em dia."
+
+
+- História de Usuário 3: Criando Lembretes Personalizados
+"Gostaria que tivesse algum modo de criar lembretes no sistema, tipo, alertas que eu coloco lá pra me lembrar de quando é a próxima vacinação de um animal. Isso ia ser super prático e garantir que eu não perca nenhuma data importante."
+
+
+- História de Usuário 4: Lendo o Brinco Pra Facilitar
+"Eu queria conseguir usar o sistema pra ler o brinco dos bovinos e identificar se eles já tomaram a vacina. Assim, fica tudo mais rápido e preciso na hora de checar quem tá com as vacinas em dia."
+
+
+- História de Usuário 5: Gerando Relatórios Personalizados
+"Seria demais se eu conseguisse gerar uns relatórios personalizados? Tipo, um histórico de saúde detalhado de um animal em específico ou um resumo de todas as atividades de saúde num certo período. Isso facilitaria muito na hora de tomar decisões sobre o cuidado dos animais."

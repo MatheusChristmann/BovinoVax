@@ -1,0 +1,25 @@
+Essa é a nossa primeira etapa de avaliação, portanto, concentre em entregar o seguinte:
+
+1. Criar uma apresentação do escopo do projeto, indicando o problema que será atacado, com a possível solução que será criada detalhando arquitetura do software, ferramentas que serão utilizadas para atacar o problema, histórias do usuário, lista de requisitos funcionais e não-funcionais já priorizados e protótipos de telas.
+
+2. A avaliação será realizada atribuindo os pontos entre parênteses ao lado esquerda da resposta da pergunta, o checklist do professor contém os seguintes itens:
+
+a) o problema está bem descrito, se encaixa no escopo de Agroindústria, agronegócio ou meio-ambiente? (1) Sim (0,5) parcialmente (0) não
+
+b) o problema ocorre na região oeste ou meio-oeste de Santa Catarina? (1) Sim, (0) Não
+
+c) a proposta de solução envolve a aplicação de Computação em Nuvem? (1) Sim, (0) Não
+
+d) a proposta de solução envolve a utilização de sensores no contexto de Internet das Coisas? (1) Sim, (0) Não
+
+e) os diagramas desenvolvidos estão corretos (sintaxe e semântica) em relação aos requisitos de software, arquitetura de software? (2) Sim, (1) parcialmente, (0) não
+
+f) os requisitos não-funcionais (seleção de tecnologias e ferramentas a serem utilizadas no projeto) são adequados para resolver o problema? (2) Sim, (1) parcialmente, (0) não
+
+g) os protótipos de tela foram criados e atendem a solução do problema? (2) Sim, (1) parcialmente, (0) não
+
+Crie uma apresentação de 5 minutos, no Youtube resumindo tudo isso: título do projeto, descrição do problema que o projeto de software visa resolver, possível solução
+
+Para realizar a entrega, crie um projeto no Gitlab, na seção Wiki do projeto relacione todos os artefatos criados. Um bom exemplo de como isso pode ser feito se encontrar no link https://github.com/plinio/matchDog/wiki
+
+Envie aqui o LINK do seu projeto no Gitlab e o LINK para o vídeo da apresentação

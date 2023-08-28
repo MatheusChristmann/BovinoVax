@@ -1,0 +1,12 @@
+- Problema:
+	Atualmente, a gestão de rebanhos bovinos enfrenta desafios significativos. Manter um controle preciso das informações de cada bovino, desde detalhes individuais até históricos de saúde, é uma tarefa complexa e propensa a erros. A falta de um sistema de registro e monitoramento eficiente leva a informações desatualizadas, dificultando a tomada de decisões informadas sobre a saúde dos animais e a administração adequada de vacinações.
+
+	A ausência de um método sistemático para criar, editar e gerenciar alertas para vacinações futuras resulta em atrasos e esquecimentos, comprometendo a saúde dos animais e impactando negativamente a produtividade do rebanho. Além disso, a dificuldade em identificar cada bovino de forma rápida e precisa durante os procedimentos de vacinação contribui para ineficiências operacionais.
+
+
+- Solução - BovinoVax:
+	O sistema BovinoVax oferece uma solução abrangente para esses problemas. Ele permitirá o cadastro detalhado de informações de cada bovino, desde identificação e raça até histórico de vacinações e características individuais. Isso resultará em um rebanho organizado, com informações facilmente acessíveis, fornecendo aos proprietários e veterinários uma visão clara da saúde e do estado de cada animal.
+
+	Além disso, o BovinoVax possibilitará o registro preciso das vacinações, associando cada intervenção de saúde a cada bovino. Com a funcionalidade de alertas e lembretes, o sistema notificará automaticamente os usuários sobre vacinações futuras, garantindo que nenhuma data seja esquecida. A integração de tecnologias de identificação por brinco ou código de barras agilizará o processo de identificação dos bovinos durante as vacinações, aumentando a eficiência e a precisão.
+
+	Em resumo, o BovinoVax resolverá os desafios atuais de gestão de rebanho, fornecendo uma plataforma centralizada para o cadastro, monitoramento e administração de vacinações, melhorando a saúde dos bovinos e otimizando as operações agrícolas.
