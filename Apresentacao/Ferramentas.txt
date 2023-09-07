@@ -1,22 +1,13 @@
 Front-End (Interface do Usuário):
-- HTML, CSS, JavaScript: Fundamentais para a criação da interface do usuário e a interatividade.
+- Flutter: Framewrok de desenvolvimento, um kit de desenvolvimento de interface de usuário.
 
 Back-End (Lógica de Negócios e Banco de Dados):
-- Node.js: Plataforma de desenvolvimento para o back-end, conhecida por sua eficiência e escalabilidade.
-- Express.js: Framework para Node.js que facilita a criação de APIs e roteamento.
+- Flutter: Framewrok de desenvolvimento, um kit de desenvolvimento de interface de usuário.
 - PostgreSQL: Bancos de dados que será usado para armazenar informações de bovinos, vacinações e outros dados relacionados.
 
 Integração de Identificação por Brinco ou Código de Barras:
 - Leitores RFID: Hardware para ler brincos RFID.
 - APIs ou Bibliotecas específicas: Para processar os dados lidos dos dispositivos de identificação.
-
-Notificações e Alertas:
-- Firebase Cloud Messaging: Para enviar notificações push em tempo real.
-- Nodemailer: Biblioteca para enviar e-mails programaticamente.
-
-Testes e Qualidade de Código:
-- Mocha: Estrutura de teste para testes de unidade.
-- ESLint: Para manter um padrão de código consistente.
 
 Hospedagem e Implantação:
 - AWS: Plataforma de hospedagem em nuvem para implantar seu aplicativo.
