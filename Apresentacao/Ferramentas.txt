@@ -1,5 +1,6 @@
 Front-End (Interface do Usuário):
 - Flutter: Framewrok de desenvolvimento, um kit de desenvolvimento de interface de usuário.
+- Figma: Desenho das telas.
 
 Back-End (Lógica de Negócios e Banco de Dados):
 - Flutter: Framewrok de desenvolvimento, um kit de desenvolvimento de interface de usuário.
@@ -11,3 +12,4 @@ Integração de Identificação por Brinco ou Código de Barras:
 
 Hospedagem e Implantação:
 - AWS: Plataforma de hospedagem em nuvem para implantar seu aplicativo.
+- GitHub: hospedar o app durante seu desenvolvimento
