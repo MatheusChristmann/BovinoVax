@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'animal.dart';
+
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
@@ -39,9 +41,9 @@ class _MainPageState extends State<MainPage> {
             },
             offset: Offset(0, 64),           
             onSelected: (value){
-              //if (value == 0) {
-              // Navigator.push(context,MaterialPageRoute(builder: (context) => RecipePage(typeId: 0),),);
-              //}
+              if (value == 0) {
+               Navigator.push(context,MaterialPageRoute(builder: (context) => AnimalPage(),),);
+              }
               //else if (value == 1) {
               //  Navigator.push(context,MaterialPageRoute(builder: (context) => RecipePage(typeId: 0),),);
               //}
