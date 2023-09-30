@@ -1,3 +1,4 @@
+import 'package:bovino_vax/pages/vacina.dart';
 import 'package:flutter/material.dart';
 
 import 'animal.dart';
@@ -31,11 +32,11 @@ class _MainPageState extends State<MainPage> {
               return [
                 PopupMenuItem<int>(
                   value: 0,
-                  child: Text('Bovinos'),              
+                  child: Text('Cadastro Animal'),              
                 ),
                 PopupMenuItem<int>(
                   value: 1,
-                  child: Text('Vacinas'),              
+                  child: Text('Cadastro Vacina'),              
                 ),
               ];
             },
@@ -44,14 +45,26 @@ class _MainPageState extends State<MainPage> {
               if (value == 0) {
                Navigator.push(context,MaterialPageRoute(builder: (context) => AnimalPage(),),);
               }
-              //else if (value == 1) {
-              //  Navigator.push(context,MaterialPageRoute(builder: (context) => RecipePage(typeId: 0),),);
-              //}
+              else if (value == 1) {
+                Navigator.push(context,MaterialPageRoute(builder: (context) => VacinaPage(),),);
+              }
             },
           )
         ],        
       ),            
-      backgroundColor: Color.fromRGBO(235, 230, 210, 1),
+      backgroundColor: Color.fromRGBO(235, 230, 210, 1),      
+      body: Center(
+        child: Container(
+          width: 200,  // Largura desejada da imagem
+          height: 200, // Altura desejada da imagem
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/animal.png'), // Caminho para a sua imagem
+              fit: BoxFit.contain, // Ajusta a imagem para caber no Container
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

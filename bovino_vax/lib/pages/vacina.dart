@@ -1,44 +1,35 @@
 import 'package:flutter/material.dart';
 
-class AnimalPage extends StatefulWidget {
+class VacinaPage extends StatefulWidget {
   @override
-  _AnimalPageState createState() => _AnimalPageState();
+  _VacinaPageState createState() => _VacinaPageState();
 }
 
-class _AnimalPageState extends State<AnimalPage> {
+class _VacinaPageState extends State<VacinaPage> {
   final TextEditingController numBrincoController = TextEditingController();
-  final TextEditingController dataNascimentoController =TextEditingController();
+  final TextEditingController dataNascimentoController =
+      TextEditingController();
   final TextEditingController pesoController = TextEditingController();
   final TextEditingController obsController = TextEditingController();
   final TextEditingController valorMercadoController = TextEditingController();
   final TextEditingController coloracaoController = TextEditingController();
   final TextEditingController racaController = TextEditingController();
 
-  // Lista de raças para o dropdown
-  final List<String> racas = [
-    'Angus',
-    'Hereford',
-    'Holandesa',
-    'Guzerá',
-    'Nelore'
-  ];
-  final List<String> coloracao = [
-    'Preta',
-    'Branca',
-    'Vermelha',
-    'Marrom',
-    'Cinza'
+  final List<String> fabricante = [
+    'Fabricante 01',
+    'Fabricante 02',
+    'Fabricante 03',
+    'Fabricante 04',
+    'Fabricante 05'
   ];
 
-  // Valor inicial selecionado no dropdown
-  String selectedRaca = 'Angus';
-  String selectedColoracao = 'Preta';
+  String selectedFabricante = 'Fabricante 01';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cadastro de Animal'),
+        title: Text('Cadastro de Vacinas'),
         backgroundColor: Color.fromRGBO(124, 156, 124, 1),
       ),
       body: Padding(
@@ -60,7 +51,7 @@ class _AnimalPageState extends State<AnimalPage> {
                     child: TextField(
                       controller: numBrincoController,
                       decoration: InputDecoration(
-                        labelText: 'Número de Brinco',
+                        labelText: 'Código',
                         border: InputBorder.none,
                       ),
                     ),
@@ -78,7 +69,7 @@ class _AnimalPageState extends State<AnimalPage> {
                     child: TextField(
                       controller: dataNascimentoController,
                       decoration: InputDecoration(
-                        labelText: 'Data de Nascimento',
+                        labelText: 'Descrição',
                         border: InputBorder.none,
                       ),
                     ),
@@ -100,81 +91,53 @@ class _AnimalPageState extends State<AnimalPage> {
                     child: TextField(
                       controller: pesoController,
                       decoration: InputDecoration(
-                        labelText: 'Peso',
+                        labelText: 'Estoque',
                         border: InputBorder.none,
                       ),
                     ),
                   ),
                 ),
                 SizedBox(width: 20.0),
-                Expanded(
-                  child: Container(
-                    width: 150.0,
-                    padding: EdgeInsets.all(2.0),
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
-                    child: TextField(
-                      controller: valorMercadoController,
-                      decoration: InputDecoration(
-                        labelText: 'Valor de Mercado',
-                        border: InputBorder.none,
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: [
                 SizedBox(
                     width: 200,
                     child: DropdownButtonFormField<String>(
                         isExpanded: true,
                         decoration: InputDecoration(
-                            label: Text('Coloração'),
+                            label: Text('Fabricante'),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(6),
                             )),
-                        value: selectedColoracao,
+                        value: selectedFabricante,
                         onChanged: (String? value) {
                           setState(() {
-                            selectedColoracao = value!;
+                            selectedFabricante = value!;
                           });
                         },
-                        items: coloracao
+                        items: fabricante
                             .map<DropdownMenuItem<String>>((String value) {
                           return DropdownMenuItem<String>(
                             value: value,
                             child: Text(value),
                           );
                         }).toList())),
-                SizedBox(width: 20.0),
-                SizedBox(
-                    width: 200,
-                    child: DropdownButtonFormField<String>(
-                        isExpanded: true,
-                        decoration: InputDecoration(
-                            label: Text('Raça'),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(6),
-                            )),
-                        value: selectedRaca,
-                        onChanged: (String? value) {
-                          setState(() {
-                            selectedRaca = value!;
-                          });
-                        },
-                        items:
-                            racas.map<DropdownMenuItem<String>>((String value) {
-                          return DropdownMenuItem<String>(
-                            value: value,
-                            child: Text(value),
-                          );
-                        }).toList())),
               ],
+            ),
+            SizedBox(height: 20.0),
+            Expanded(
+              child: Container(
+                padding: EdgeInsets.all(2.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.black),
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: TextField(
+                  controller: valorMercadoController,
+                  decoration: InputDecoration(
+                    labelText: 'Modo de Administração',
+                    border: InputBorder.none,
+                  ),
+                ),
+              ),
             ),
             SizedBox(height: 20.0),
             Expanded(
@@ -208,7 +171,7 @@ class _AnimalPageState extends State<AnimalPage> {
                 ),
                 maximumSize: Size(double.infinity, 50.0), // Largura máxima
               ),
-              child: Text('Salvar Animal'),
+              child: Text('Salvar Vacina'),
             )
           ],
         ),
